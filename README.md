@@ -1,2 +1,24 @@
-# customer-churn-prediction
-Machine learning model to predict telecom customer churn using Logistic Regression. Includes data cleaning, feature encoding, exploratory analysis, and evaluation (ROC-AUC, classification report) to identify key churn drivers.
+Customer Churn Prediction
+This project predicts customer churn for a telecom company using Logistic Regression. The goal is to identify customers likely to leave and provide insights for retention strategies.
+
+Features
+Data Preprocessing: Handling missing values, encoding categorical variables, and feature scaling.
+
+Exploratory Analysis: Visualizing key patterns influencing churn (tenure, contract type, payment method, etc.).
+
+Modeling: Logistic Regression for churn prediction.
+
+Evaluation: Classification report, ROC-AUC score, and feature importance analysis.
+
+Tech Stack
+Python – Data manipulation & modeling
+
+Pandas, NumPy – Data preprocessing
+
+Matplotlib, Seaborn – Visualization
+
+Scikit-learn – Logistic Regression & evaluation
+
+Results
+ROC-AUC: ~0.83
+
